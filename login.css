@@ -94,7 +94,7 @@ body {
   margin-bottom: 13px;
 }
 .title {
-  font-size: 34px;
+  font-size: 35px;
   font-weight: 700;
   line-height: 3;
   color: #181818;
@@ -128,11 +128,6 @@ button {
   border-bottom: 1px solid #a0a5a8;
   line-height: 2;
   text-decoration: none;
-}
-
-.b-container {
-  left: calc(100% - 600px);
-  z-index: 0;
 }
 
 .switch {
@@ -181,7 +176,8 @@ button {
   transition: 1.25s;
 }
 
-.switch__button {
+.switch__button,
+.submit {
   cursor: pointer;
 }
 
@@ -196,46 +192,6 @@ button {
   box-shadow: 2px 2px 10px #d1d9e6 -2px -2px 10px #f9f9f9;
   transform: scale(0.97);
   transition: 0.25s;
-}
-
-.is-txr {
-  left: calc(100% - 400px);
-  transition: 1.25s;
-  transform-origin: left;
-}
-
-.is-txl {
-  left: 0;
-  transition: 1.25s;
-  transform-origin: right;
-}
-
-.is-z200 {
-  z-index: 200;
-  transition: 1.25s;
-}
-
-.is-hidden {
-  visibility: hidden;
-  opacity: 0;
-  position: absolute;
-  transition: 1.25s;
-}
-
-.is-gx {
-  animation: is-gx 1.25s;
-}
-
-@keyframes is-gx {
-  0%,
-  10%,
-  100% {
-    width: 400px;
-  }
-  30%,
-  50% {
-    width: 500px;
-  }
 }
 
 .description {
